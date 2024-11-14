@@ -9,7 +9,7 @@ TARGET = main
 INCLUDES = -Iincludes
 LIBS=-lm
 # Source files
-SRCS = main.cc thread.cc example.cc example_queue.cc
+SRCS = main.cc thread.cc imu.cc
 
 # Build directory
 BUILD_DIR = objs
